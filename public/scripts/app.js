@@ -49,7 +49,7 @@ function getLocation(location) {
     if (location) {
         return location;
     } else {
-        return unknown;
+        return 'unknown';
     }
 }
 
