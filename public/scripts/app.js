@@ -40,7 +40,7 @@ var app = {
 // var userAge = 24;
 // var userLocation = 'Dallas';
 var user = {
-
+    name: 'King',
     age: 25,
     location: 'Kansas'
 };
