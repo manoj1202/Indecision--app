@@ -53,8 +53,6 @@ function getLocation(location) {
             'Location : ',
             user.location
         );
-    } else {
-        return 'unknown';
     }
 }
 
@@ -71,12 +69,6 @@ var templateTwo = React.createElement(
         null,
         'Age : ',
         user.age
-    ),
-    React.createElement(
-        'p',
-        null,
-        'Location : ',
-        getLocation(user.location)
     )
 );
 
