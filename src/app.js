@@ -23,12 +23,12 @@ var template =(
 var user={
     name : 'King',
     age : 25,
-   
+    location: 'Kansas'
 }
 
 function getLocation(location){
    if(location){
-        return location;
+        return <p>Location : {user.location}</p>;
    } else {
        return 'unknown';
    }

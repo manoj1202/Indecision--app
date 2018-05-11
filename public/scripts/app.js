@@ -41,13 +41,18 @@ var app = {
 // var userLocation = 'Dallas';
 var user = {
     name: 'King',
-    age: 25
-
+    age: 25,
+    location: 'Kansas'
 };
 
 function getLocation(location) {
     if (location) {
-        return location;
+        return React.createElement(
+            'p',
+            null,
+            'Location : ',
+            user.location
+        );
     } else {
         return 'unknown';
     }
