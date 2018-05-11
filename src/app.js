@@ -35,6 +35,6 @@ var templateTwo =(
 
 var appRoot = document.getElementById('app');
 
-//ReactDOM.render(template, appRoot);
-ReactDOM.render(templateTwo, appRoot);
+ReactDOM.render(template, appRoot);
+// ReactDOM.render(templateTwo, appRoot);
 
