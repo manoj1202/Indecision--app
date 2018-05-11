@@ -23,7 +23,7 @@ var template =(
 var user={
     name : 'King',
     age : 25,
-    location: 'Kansas'
+    
 }
 
 function getLocation(location){
