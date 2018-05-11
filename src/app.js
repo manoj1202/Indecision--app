@@ -34,7 +34,7 @@ function getLocation(location){
 
 var templateTwo =(
     <div>
-        <h1>{user.name}</h1>
+        <h1>{user.name ? 'user.name': 'Add Some Name'}</h1>
         <p>Age : {user.age}</p>
          {getLocation(user.location)}
     </div>
