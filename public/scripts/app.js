@@ -41,8 +41,8 @@ var app = {
 // var userLocation = 'Dallas';
 var user = {
     name: 'King',
-    age: 25
-
+    age: 25,
+    location: 'Kansas'
 };
 
 function getLocation(location) {
