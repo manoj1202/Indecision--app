@@ -25,18 +25,20 @@ var user={
     age : 25,
     location : 'Kansas'
 }
-function getLocation(){
+
+function getLocation(location){
    if(location){
         return location;
    } else {
-       return undefined;
+       return unknown;
    }
 }
+
 var templateTwo =(
     <div>
         <h1>{user.name}</h1>
         <p>Age : {user.age}</p>
-        <p>Location :{getLocation(user.location)}</p>
+        <p>Location : {getLocation(user.location)}</p>
     </div>
 );
 
