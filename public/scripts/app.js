@@ -2,19 +2,23 @@
 
 console.log('App.js File is Running!');
 
-// Introduction to jsx -- javascript xml
-var template = React.createElement(
+var app = {
+    title: 'Indecision App',
+    subtitle: 'This is a paragraph'
+
+    // Introduction to jsx -- javascript xml
+};var template = React.createElement(
     'div',
     null,
     React.createElement(
         'h1',
         null,
-        'Indecision App'
+        app.title
     ),
     React.createElement(
         'p',
         null,
-        'This is a paragraph'
+        app.subtitle
     ),
     React.createElement(
         'ol',
