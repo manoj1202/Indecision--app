@@ -40,7 +40,7 @@ var app = {
 // var userAge = 24;
 // var userLocation = 'Dallas';
 var user = {
-    name: 'King',
+
     age: 25,
     location: 'Kansas'
 };
@@ -62,7 +62,7 @@ var templateTwo = React.createElement(
     React.createElement(
         'h1',
         null,
-        user.name ? 'user.name' : 'Add Some Name'
+        user.name ? user.name : 'Add Some Name'
     ),
     React.createElement(
         'p',
