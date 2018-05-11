@@ -16,9 +16,9 @@ var template =(
 // var userAge = 24;
 // var userLocation = 'Dallas';
 var user={
-    name : King,
+    name : 'King',
     age : 25,
-    location : Kansas
+    location : 'Kansas'
 }
 var templateTwo =(
     <div>
