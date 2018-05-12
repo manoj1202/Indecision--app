@@ -2,7 +2,7 @@ console.log('App.js File is Running!');
 
 var app ={
     title: 'Indecision App',
-    
+    subtitle: 'This is a paragraph',
     options : ['One', 'Two']
 }
 
