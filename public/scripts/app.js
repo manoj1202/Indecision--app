@@ -4,7 +4,8 @@ console.log('App.js File is Running!');
 
 var app = {
     title: 'Indecision App',
-    subtitle: 'This is a paragraph'
+
+    options: ['One', 'Two']
 
     // Introduction to jsx -- javascript xml
 };var template = React.createElement(
@@ -15,7 +16,7 @@ var app = {
         null,
         app.title
     ),
-    React.createElement(
+    app.subtitle && React.createElement(
         'p',
         null,
         app.subtitle
@@ -76,4 +77,4 @@ var templateTwo = React.createElement(
 var appRoot = document.getElementById('app');
 
 //ReactDOM.render(template, appRoot);
-ReactDOM.render(templateTwo, appRoot);
+ReactDOM.render(template, appRoot);

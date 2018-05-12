@@ -2,14 +2,15 @@ console.log('App.js File is Running!');
 
 var app ={
     title: 'Indecision App',
-    subtitle: 'This is a paragraph'
+    
+    options : ['One', 'Two']
 }
 
 // Introduction to jsx -- javascript xml
 var template =( 
     <div>
         <h1>{app.title}</h1>
-        <p>{app.subtitle}</p>
+        {app.subtitle && <p>{app.subtitle}</p>}
         <ol>
             <li>Item one</li>
             <li>Item two</li>
@@ -43,5 +44,5 @@ var templateTwo =(
 var appRoot = document.getElementById('app');
 
 //ReactDOM.render(template, appRoot);
- ReactDOM.render(templateTwo, appRoot);
+ ReactDOM.render(template, appRoot);
 
