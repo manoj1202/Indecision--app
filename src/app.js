@@ -22,7 +22,7 @@ var template =(
 // var userLocation = 'Dallas';
 var user = {
     name: 'King',
-    age : 18,
+    age : 15,
     location: 'Kansas'
 }
 
