@@ -21,6 +21,7 @@ var app = {
         null,
         app.subtitle
     ),
+    app.options.length > 0 ? 'Here are your options  ' + app.options : 'No Options',
     React.createElement(
         'ol',
         null,
