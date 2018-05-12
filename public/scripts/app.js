@@ -4,8 +4,7 @@ console.log('App.js File is Running!');
 
 var app = {
     title: 'Indecision App',
-    subtitle: 'This is a paragraph',
-    options: ['One', 'Two']
+    subtitle: 'This is a paragraph'
 
     // Introduction to jsx -- javascript xml
 };var template = React.createElement(
@@ -21,7 +20,7 @@ var app = {
         null,
         app.subtitle
     ),
-    app.options.length > 0 ? 'Here are your options      ' + app.options : 'No Options',
+    app.options.length > 0 ? 'Here are your options ' + app.options : 'No Options',
     React.createElement(
         'ol',
         null,
