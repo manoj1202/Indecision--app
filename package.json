@@ -6,5 +6,7 @@
   "dependencies": {
     "babel-preset-env": "1.5.2",
     "babel-preset-react": "6.24.1"
-  }
+  },
+  "repository": "https://github.com/manoj1202/Indecision--app.git",
+  "author": "manoj1202 <manoj.appalaneni@gmail.com>"
 }

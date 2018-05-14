@@ -6,9 +6,9 @@ var app = {
     title: 'Indecision App',
     subtitle: 'This is a paragraph',
     options: ['One', 'Two']
+};
 
-    // Introduction to jsx -- javascript xml
-};var template = React.createElement(
+var template = React.createElement(
     'div',
     null,
     React.createElement(
@@ -37,6 +37,8 @@ var app = {
         )
     )
 );
+
+//Introduction to jsx -- javascript xml
 
 // var userName = 'Manoj Kumar';
 // var userAge = 24;
@@ -77,5 +79,5 @@ var templateTwo = React.createElement(
 
 var appRoot = document.getElementById('app');
 
-//ReactDOM.render(template, appRoot);
 ReactDOM.render(template, appRoot);
+//ReactDOM.render(templateTwo, appRoot);
